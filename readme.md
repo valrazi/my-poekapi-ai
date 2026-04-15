@@ -29,8 +29,8 @@
 <h2>⚙️ Installation & Setup</h2>
 
 <h3>1. Clone the repository:</h3>
-<pre><code>git clone &lt;your-repository-url&gt;
-cd pokemon-bot-api</code></pre>
+<pre><code>git clone https://github.com/valrazi/my-poekapi-ai.git;
+cd my-pokeapi-ai</code></pre>
 
 <h3>2. Install dependencies:</h3>
 <pre><code>npm install</code></pre>
@@ -38,7 +38,7 @@ cd pokemon-bot-api</code></pre>
 <h3>3. Configure environment variables:</h3>
 <p>Create a <code>.env</code> file in the root directory and fill in the following:</p>
 <pre><code>PORT=3000
-MONGO_URI=mongodb://localhost:27017/kata_task
+MONGO_URI=<<url_mongo_db>>
 WEBHOOK_SECRET=RahasiaBotPokemon123</code></pre>
 
 <h3>4. Run the application:</h3>
@@ -51,7 +51,7 @@ npm run dev</code></pre>
 <h2>🔌 API Documentation</h2>
 
 <h3>1. Register User</h3>
-<p>Used by Kata.ai Webhook/Action to save user identity after registration flow.</p>
+<p>Used to save user identity after registration flow.</p>
 <ul>
   <li><strong>URL:</strong> <code>/register</code></li>
   <li><strong>Method:</strong> <code>POST</code></li>
