@@ -38,15 +38,12 @@ cd my-pokeapi-ai</code></pre>
 <h3>3. Configure environment variables:</h3>
 <p>Create a <code>.env</code> file in the root directory and fill in the following:</p>
 <pre><code>PORT=3000
-MONGO_URI=<<url_mongo_db>>
+MONGO_URI=[url_mongo_db]
 WEBHOOK_SECRET=RahasiaBotPokemon123</code></pre>
 
 <h3>4. Run the application:</h3>
-<pre><code># For production
-npm start
+node index.js
 
-# For development
-npm run dev</code></pre>
 
 <h2>🔌 API Documentation</h2>
 
