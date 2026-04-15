@@ -15,7 +15,6 @@
   <li><strong>Runtime</strong>: Node.js</li>
   <li><strong>Framework</strong>: Express.js</li>
   <li><strong>Database</strong>: MongoDB (via Mongoose)</li>
-  <li><strong>HTTP Client</strong>: Axios</li>
   <li><strong>Environment</strong>: Dotenv</li>
 </ul>
 
