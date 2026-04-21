@@ -29,7 +29,7 @@
 
 <h3>1. Clone the repository:</h3>
 <pre><code>git clone https://github.com/valrazi/my-poekapi-ai.git;
-cd my-pokeapi-ai</code></pre>
+cd my-poekapi-ai</code></pre>
 
 <h3>2. Install dependencies:</h3>
 <pre><code>npm install</code></pre>
